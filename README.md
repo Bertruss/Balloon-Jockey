@@ -20,7 +20,7 @@ To interface with the DFM-17, You need to use a compatible ST-Link programmer de
 If you are using linux you may simply install ```stlink-tools``` via the package manager. Ubuntu/Debian: ```sudo apt install stlink-tools```
 
 Dissassembling the DFM-17 Radiosonde is easy. You must remove the zip-tie and the front sticker, and then the styrofoam shell comes apart and you can access the main board. The batteries are non-rechargable and can be disposed of, they may already be fully discharged after the radiosonde has flown once.
-
+<br>
 <figure style="text-align: center;">
   <img src="./images/inst1.jpg" alt="Centered image" width="80%">
   <figcaption>
@@ -28,7 +28,7 @@ Dissassembling the DFM-17 Radiosonde is easy. You must remove the zip-tie and th
     </figcaption>
 </figure>
 
-
+<br>
 <figure style="text-align: center;">
   <img src="./images/inst2.jpg" alt="Centered image" width="80%">
     <figcaption>
@@ -36,7 +36,7 @@ Dissassembling the DFM-17 Radiosonde is easy. You must remove the zip-tie and th
     </figcaption>
 </figure>
 
-
+<br>
 <figure style="text-align: center;">
   <img src="./images/inst3.jpg" alt="Centered image" width="80%">
     <figcaption>
@@ -44,7 +44,7 @@ Dissassembling the DFM-17 Radiosonde is easy. You must remove the zip-tie and th
     </figcaption>
 </figure>
  
-
+<br>
 <figure style="text-align: center;">
   <img src="./images/inst4.jpg" alt="Centered image" width="80%">
     <figcaption>
@@ -52,7 +52,7 @@ Dissassembling the DFM-17 Radiosonde is easy. You must remove the zip-tie and th
     </figcaption>
 </figure>
 
-
+<br>
 <figure style="text-align: center;">
   <img src="./images/example_connection0.jpg" alt="Centered image" width="80%">
 </figure>
@@ -64,11 +64,11 @@ Dissassembling the DFM-17 Radiosonde is easy. You must remove the zip-tie and th
     Once you have connected your ST Link to the breakout, and your ST Link to your PC, you can verify that the connection is working properly by pulling the chip id and device type with a probe. if the connection is working properly, you should see the STM32F1XX device type and 0x420 chip id. 
     </figcaption>
 </figure>
-
+<br>
 
 ## Recommended Resources
 [RS41ng](https://github.com/mikaelnousiainen/RS41ng) is a popular and successful project aimed at creating alternate firmwares for radiosondes, including the Graw DFM-17.
-
+<br>
 <figure style="text-align: center;">
     <img src="./images/transmission_example.jpg" alt="Centered image" width="80%">
     <img src="./images/transmission_example1.jpg" alt="Centered image" width="80%">
