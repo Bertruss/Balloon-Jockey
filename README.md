@@ -76,3 +76,7 @@ Dissassembling the DFM-17 Radiosonde is easy. You must remove the zip-tie and th
     Here I have used RS41ng to generate an APRS transmitter firmware for the DFM-17, and after flashing it to the device, I am verifying with a receiver that it is transmitting correctly.
     </figcaption>
 </figure>
+
+
+
+[Documentation License: CC-BY-SA-4.0](./images/docs%20license.md)
